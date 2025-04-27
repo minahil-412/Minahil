@@ -1,0 +1,232 @@
+/* Global */
+* {
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #7c628f;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+.header-nav {
+    background: #2b2d42;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.nav-menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-menu li {
+    margin-left: 20px;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Banner */
+.hero-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://images.pexels.com/photos/15924270/pexels-photo-15924270.jpeg?cs=srgb&dl=pexels-senanur-ulusoy-182138396-15924270.jpg&fm=jpg") center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.main-btn {
+    background-color: #4caf50;
+    padding: 12px 30px;
+    margin-top: 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Feature Cards */
+.feature-cards {
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+}
+
+.feature-card {
+    width: 300px;
+    background-color: #34495e;
+    color: white;
+    margin: 0 10px;
+    padding: 30px;
+    text-align: center;
+}
+/* Skillset */
+.skillset-section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.highlight-text {
+    color: #4caf50;
+}
+
+.skillset-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.skillset-box {
+    padding: 20px;
+}
+
+.skillset-icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+/* Strategy */
+.strategy-section {
+    background: #2f3542;
+    color: white;
+    padding: 80px 40px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.strategy-info {
+    flex: 1;
+    padding-right: 30px;
+}
+
+.strategy-image {
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 20px;
+}
+
+.strategy-image img {
+    width: 50%;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Image Gallery */
+.gallery-section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.image-item {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Clients */
+.client-logos-section {
+    background: #f1f1f1;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.clients {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.client-logo img {
+    width: 120px;
+}
+
+/* Contact */
+.contact-section {
+    padding: 60px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, textarea {
+    padding: 12px;
+    border: 1px solid #d19f9f;
+}
+
+/* Footer */
+footer {
+    background: #242324;
+    color: #fff;
+    padding: 80px 50px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left {
+    flex: 1;
+}
+
+.footer-right {
+    flex: 1;
+    text-align: right;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icon {
+    font-size: 18px;
+    color: white;
+}
+
+.newsletter {
+    margin-top: 20px;
+}
+
+.subscribe-btn {
+    background-color: #a94d39;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
